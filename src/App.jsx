@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Minhapag from "./pages/Minhapag.jsx"
+import Header from "./Components/Header"
 import Personagens from "./pages/Personagens.jsx"
-
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path: "/",
     element: <Minhapag />
   },
   {
